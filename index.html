@@ -1,552 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-  <body>
-    <nav
-      class="navbar navbar-expand-lg bg-dark border-bottom border-body"
-      data-bs-theme="dark"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="color: white">G8Stores</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <form class="d-flex">
-            <ul
-              class="navbar-nav me-auto mb-2 mb-lg-0"
-              class="justify-content-center"
-            >
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  style="color: white"
-                  href="#"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white">Shoes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white">Clothing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white">About</a>
-              </li>
-            </ul>
-          </form>
+    body {
+      font-family: "Poppins", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color: white">G8Stores</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <form class="d-flex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" class="justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" style="color: white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: white">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: white">Clothing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: white">About</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card mb-3 container-fluid mt-4">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <div class="card-body" class="align-items-center">
+          <center>
+            <h2 class="card-title fw-bold">
+              Find your items and change your style now!
+            </h2>
+          </center>
+          <p class="card-text" style="font-size: 20px">
+            Temukan barang yang sesuai dengan kepribadianmu dan ubah
+            penampilanmu jadi lebih stylish. Fashion dan aksesoris terbaik ada
+            disini untuk membuatmu tampil beda!
+          </p>
+          <center>
+            <button type="button" class="btn" style="color: white; background-color: rgb(202, 16, 202)">
+              <img src="Assets/Instagram.png" width="40" height="40" alt="" />
+              G8Stores
+            </button>
+            <button type="button" class="btn btn-primary">
+              <img src="Assets/Facebook.png" width="40" height="40" alt="" />
+              G8Stores
+            </button>
+            <button type="button" class="btn" style="color: white; background-color: black">
+              <img src="Assets/Twiter.png" width="40" height="40" alt="" />
+              G8Stores
+            </button>
+          </center>
         </div>
       </div>
+      <div class="col-md-4">
+        <img src="Assets/CartHitam.png" class="img-fluid rounded-end" alt="..." />
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col mt-3 mx-3">
+        <div class="card shadow-lg" style="width: 18rem">
+          <img src="Assets/Air Jordan 1 Low Abu Abu.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <span style="color: rgb(255, 0, 0)">Best Seller</span>
+            <h5 class="card-title">Air Jordan 1 Low</h5>
+            <p class="card-text">Rp.1.729.000</p>
+            <a href="#" style="background-color: rgb(15, 20, 95); color: white" class="btn float-end">C</a>
+            <a href="#" class="btn btn-secondary float-end">M</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mt-3 mx-3">
+        <div class="card shadow-lg" style="width: 18rem">
+          <img src="Assets/Air Jordan 1 Mid SE.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <span style="color: rgb(255, 0, 0)">Best Seller</span>
+            <h5 class="card-title">Air Jordan 1 Mid SE</h5>
+            <p class="card-text">Rp.2.129.000</p>
+            <a href="#" style="background-color: rgb(59, 61, 46); color: white" class="btn float-end">W</a>
+            <a href="#" style="background-color: rgb(179, 180, 185); color: white" class="btn float-end">C</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mt-3 mx-3">
+        <div class="card shadow-lg" style="width: 18rem">
+          <img src="Assets/Air Jordan 1 Low Hitam.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <span style="color: rgb(255, 0, 0)">Best Seller</span>
+            <h5 class="card-title">Air Jordan 1 Low</h5>
+            <p class="card-text">Rp.1.729.000</p>
+            <a href="#" style="background-color: rgb(59, 61, 46); color: white" class="btn float-end">W</a>
+            <a href="#" style="background-color: rgb(179, 180, 185); color: white" class="btn float-end">C</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mt-3 mx-3">
+        <div class="card shadow-lg" style="width: 18rem">
+          <img src="Assets/KAHA LOW GTX.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <span style="color: rgb(255, 0, 0)">Best Seller</span>
+            <h5 class="card-title">KAHA LOW GTX</h5>
+            <p class="card-text">Rp.3.039200</p>
+            <a href="#" style="background-color: rgb(59, 61, 46); color: white" class="btn float-end">W</a>
+            <a href="#" style="background-color: rgb(179, 180, 185); color: white" class="btn float-end">C</a>
+            <a href="#" style="background-color: rgb(59, 61, 46); color: white" class="btn float-end">W</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mt-3 mx-3">
+        <div class="card shadow-lg" style="width: 18rem">
+          <img src="Assets/Hiroshi biru tua.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <span style="color: rgb(255, 0, 0)">Best Seller</span>
+            <h5 class="card-title">Hiroshi biru tua</h5>
+            <p class="card-text">Rp.566.000</p>
+            <a href="#" style="background-color: rgb(59, 61, 46); color: white" class="btn float-end">W</a>
+            <a href="#" style="background-color: rgb(179, 180, 185); color: white" class="btn float-end">C</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mt-3 mx-3">
+        <div class="card shadow-lg" style="width: 18rem">
+          <img src="Assets/Sepatu Kodachi Max.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <span style="color: rgb(255, 0, 0)">Best Seller</span>
+            <h5 class="card-title">Sepatu Kodachi Max</h5>
+            <p class="card-text">Rp.205.000</p>
+            <a href="#" style="background-color: rgb(59, 61, 46); color: white" class="btn float-end">W</a>
+            <a href="#" style="background-color: rgb(179, 180, 185); color: white" class="btn float-end">C</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="clothing" class="my-5">
+    <nav class="navbar text-white d-flex justify-content-center mb-3" style="background-color: #333">
+      <h3 class="fw-bold my-1" style="margin: 0">Clothing</h3>
     </nav>
-
-    <div class="card mb-3 container-fluid mt-4">
-      <div class="row g-0">
-        <div class="col-md-8">
-          <div class="card-body" class="align-items-center">
-            <center>
-              <h2 class="card-title fw-bold">
-                Find your items and change your style now!
-              </h2>
-            </center>
-            <p class="card-text" style="font-size: 20px">
-              Temukan barang yang sesuai dengan kepribadianmu dan ubah
-              penampilanmu jadi lebih stylish. Fashion dan aksesoris terbaik ada
-              disini untuk membuatmu tampil beda!
-            </p>
-            <center>
-              <button
-                type="button"
-                class="btn"
-                style="color: white; background-color: rgb(202, 16, 202)"
-              >
-                <img src="Assets/Instagram.png" width="40" height="40" alt="" />
-                G8Stores
-              </button>
-              <button type="button" class="btn btn-primary">
-                <img src="Assets/Facebook.png" width="40" height="40" alt="" />
-                G8Stores
-              </button>
-              <button
-                type="button"
-                class="btn"
-                style="color: white; background-color: black"
-              >
-                <img src="Assets/Twiter.png" width="40" height="40" alt="" />
-                G8Stores
-              </button>
-            </center>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <img
-            src="Assets/CartHitam.png"
-            class="img-fluid rounded-end"
-            alt="..."
-          />
-        </div>
-      </div>
-    </div>
-
     <div class="container">
-      <div class="row">
-        <div class="col mt-3 mx-3">
-          <div class="card shadow-lg" style="width: 18rem">
-            <img
-              src="Assets/Air Jordan 1 Low Abu Abu.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <span style="color: rgb(255, 0, 0)">Best Seller</span>
-              <h5 class="card-title">Air Jordan 1 Low</h5>
-              <p class="card-text">Rp.1.729.000</p>
-              <a
-                href="#"
-                style="background-color: rgb(15, 20, 95); color: white"
-                class="btn float-end"
-                >C</a
-              >
-              <a href="#" class="btn btn-secondary float-end">M</a>
+      <div class="row row-cols-3 gap-4">
+        <div class="card" style="
+              width: 22.5rem;
+              padding: 0;
+              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            ">
+          <img src="Assets/Loose Fit Heavyweight Short-Sleeve Pocket...png" class="card-img-top" alt="..." />
+          <div class="px-3 py-2">
+            <span class="text-danger fw-medium">Best Seller</span>
+            <h5 class="card-title fw-semibold mt-2" style="height: 50px">
+              Loose Fit Heavyweight Short-Sleeve Pocket...
+            </h5>
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="fw-semibold">Rp. 1.729.000</h5>
+              <div class="d-flex align-items-center gap-1">
+                <div class="py-0 px-2 text-white fw-semibold" style="background-color: #333; border-radius: 3px">
+                  M
+                </div>
+                <div class="py-0 px-2" style="
+                      background-color: #999;
+                      border-radius: 3px;
+                      width: 30px;
+                      height: 24px;
+                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+                    "></div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col mt-3 mx-3">
-          <div class="card shadow-lg" style="width: 18rem">
-            <img
-              src="Assets/Air Jordan 1 Mid SE.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <span style="color: rgb(255, 0, 0)">Best Seller</span>
-              <h5 class="card-title">Air Jordan 1 Mid SE</h5>
-              <p class="card-text">Rp.2.129.000</p>
-              <a
-                href="#"
-                style="background-color: rgb(59, 61, 46); color: white"
-                class="btn float-end"
-                >W</a
-              >
-              <a
-                href="#"
-                style="background-color: rgb(179, 180, 185); color: white"
-                class="btn float-end"
-                >C</a
-              >
+        <div class="card" style="
+              width: 22.5rem;
+              padding: 0;
+              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            ">
+          <img src="Assets/Women's Rain Defender® Loose Fit....png" class="card-img-top" alt="..." />
+          <div class="px-3 py-2">
+            <span class="text-danger fw-medium">Best Seller</span>
+            <h5 class="card-title fw-semibold mt-2" style="height: 50px">
+              Women's Rain Defender® Loose Fit...
+            </h5>
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="fw-semibold">Rp. 1.729.000</h5>
+              <div class="d-flex align-items-center gap-1">
+                <div class="py-0 px-2 text-white fw-semibold" style="background-color: #333; border-radius: 3px">
+                  W
+                </div>
+                <div class="py-0 px-2" style="
+                      background-color: #999;
+                      border-radius: 3px;
+                      width: 30px;
+                      height: 24px;
+                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+                    "></div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col mt-3 mx-3">
-          <div class="card shadow-lg" style="width: 18rem">
-            <img
-              src="Assets/Air Jordan 1 Low Hitam.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <span style="color: rgb(255, 0, 0)">Best Seller</span>
-              <h5 class="card-title">Air Jordan 1 Low</h5>
-              <p class="card-text">Rp.1.729.000</p>
-              <a
-                href="#"
-                style="background-color: rgb(59, 61, 46); color: white"
-                class="btn float-end"
-                >W</a
-              >
-              <a
-                href="#"
-                style="background-color: rgb(179, 180, 185); color: white"
-                class="btn float-end"
-                >C</a
-              >
+        <div class="card" style="
+              width: 22.5rem;
+              padding: 0;
+              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            ">
+          <img src="Assets/City Skate Short Sleeve T-Shirt.png" class="card-img-top" alt="..." />
+          <div class="px-3 py-2">
+            <span class="text-danger fw-medium">Best Seller</span>
+            <h5 class="card-title fw-semibold mt-2" style="height: 50px">
+              City Skate Short Sleeve T-Shirt
+            </h5>
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="fw-semibold">Rp. 1.729.000</h5>
+              <div class="d-flex align-items-center gap-1">
+                <div class="py-0 px-2 text-white fw-semibold" style="background-color: #333; border-radius: 3px">
+                  A
+                </div>
+                <div class="py-0 px-2" style="
+                      background-color: #999;
+                      border-radius: 3px;
+                      width: 30px;
+                      height: 24px;
+                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+                    "></div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col mt-3 mx-3">
-          <div class="card shadow-lg" style="width: 18rem">
-            <img src="Assets/KAHA LOW GTX.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <span style="color: rgb(255, 0, 0)">Best Seller</span>
-              <h5 class="card-title">KAHA LOW GTX</h5>
-              <p class="card-text">Rp.3.039200</p>
-              <a
-                href="#"
-                style="background-color: rgb(59, 61, 46); color: white"
-                class="btn float-end"
-                >W</a
-              >
-              <a
-                href="#"
-                style="background-color: rgb(179, 180, 185); color: white"
-                class="btn float-end"
-                >C</a
-              >
-              <a
-                href="#"
-                style="background-color: rgb(59, 61, 46); color: white"
-                class="btn float-end"
-                >W</a
-              >
+        <div class="card" style="
+              width: 22.5rem;
+              padding: 0;
+              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            ">
+          <img src="Assets/Jordan Essentials - Men's Woven Jacket.png" class="card-img-top" alt="..." />
+          <div class="px-3 py-2">
+            <span class="text-danger fw-medium">Best Seller</span>
+            <h5 class="card-title fw-semibold mt-2" style="height: 50px">
+              Jordan Essentials - Men's Woven Jacket
+            </h5>
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="fw-semibold">Rp. 1.729.000</h5>
+              <div class="d-flex align-items-center gap-1">
+                <div class="py-0 px-2 text-white fw-semibold" style="background-color: #333; border-radius: 3px">
+                  M
+                </div>
+                <div class="py-0 px-2" style="
+                      background-color: #999;
+                      border-radius: 3px;
+                      width: 30px;
+                      height: 24px;
+                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+                    "></div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col mt-3 mx-3">
-          <div class="card shadow-lg" style="width: 18rem">
-            <img
-              src="Assets/Hiroshi biru tua.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <span style="color: rgb(255, 0, 0)">Best Seller</span>
-              <h5 class="card-title">Hiroshi biru tua</h5>
-              <p class="card-text">Rp.566.000</p>
-              <a
-                href="#"
-                style="background-color: rgb(59, 61, 46); color: white"
-                class="btn float-end"
-                >W</a
-              >
-              <a
-                href="#"
-                style="background-color: rgb(179, 180, 185); color: white"
-                class="btn float-end"
-                >C</a
-              >
+        <div class="card" style="
+              width: 22.5rem;
+              padding: 0;
+              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            ">
+          <img src="Assets/Zion - Men's Graphic Fleece Pullover Hoodie.png" class="card-img-top" alt="..." />
+          <div class="px-3 py-2">
+            <span class="text-danger fw-medium">Best Seller</span>
+            <h5 class="card-title fw-semibold mt-2" style="height: 50px">
+              Zion - Men's Graphic Fleece Pullover Hoodie
+            </h5>
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="fw-semibold">Rp. 1.729.000</h5>
+              <div class="d-flex align-items-center gap-1">
+                <div class="py-0 px-2 text-white fw-semibold" style="background-color: #333; border-radius: 3px">
+                  A
+                </div>
+                <div class="py-0 px-2" style="
+                      background-color: #999;
+                      border-radius: 3px;
+                      width: 30px;
+                      height: 24px;
+                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+                    "></div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col mt-3 mx-3">
-          <div class="card shadow-lg" style="width: 18rem">
-            <img
-              src="Assets/Sepatu Kodachi Max.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <span style="color: rgb(255, 0, 0)">Best Seller</span>
-              <h5 class="card-title">Sepatu Kodachi Max</h5>
-              <p class="card-text">Rp.205.000</p>
-              <a
-                href="#"
-                style="background-color: rgb(59, 61, 46); color: white"
-                class="btn float-end"
-                >W</a
-              >
-              <a
-                href="#"
-                style="background-color: rgb(179, 180, 185); color: white"
-                class="btn float-end"
-                >C</a
-              >
+        <div class="card" style="
+              width: 22.5rem;
+              padding: 0;
+              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            ">
+          <img src="Assets/Nike Club - Men's Marina Anorak.png" class="card-img-top" alt="..." />
+          <div class="px-3 py-2">
+            <span class="text-danger fw-medium">Best Seller</span>
+            <h5 class="card-title fw-semibold mt-2" style="height: 50px">
+              Nike Club - Men's Marina Anorak
+            </h5>
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="fw-semibold">Rp. 1.729.000</h5>
+              <div class="d-flex align-items-center gap-1">
+                <div class="py-0 px-2 text-white fw-semibold" style="background-color: #333; border-radius: 3px">
+                  M
+                </div>
+                <div class="py-0 px-2" style="
+                      background-color: #999;
+                      border-radius: 3px;
+                      width: 30px;
+                      height: 24px;
+                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+                    "></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <section id="clothing" class="my-5">
-      <nav
-        class="navbar text-white d-flex justify-content-center mb-3"
-        style="background-color: #333"
-      >
-        <h3 class="fw-bold my-1" style="margin: 0">Clothing</h3>
-      </nav>
-      <div class="container">
-        <div class="row row-cols-3 gap-4">
-          <div
-            class="card"
-            style="
-              width: 22.5rem;
-              padding: 0;
-              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-            "
-          >
-            <img
-              src="Assets/Loose Fit Heavyweight Short-Sleeve Pocket...png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="px-3 py-2">
-              <span class="text-danger fw-medium">Best Seller</span>
-              <h5 class="card-title fw-semibold mt-2" style="height: 50px">
-                Loose Fit Heavyweight Short-Sleeve Pocket...
-              </h5>
-              <div
-                class="d-flex justify-content-between align-items-center mb-1"
-              >
-                <h5 class="fw-semibold">Rp. 1.729.000</h5>
-                <div class="d-flex align-items-center gap-1">
-                  <div
-                    class="py-0 px-2 text-white fw-semibold"
-                    style="background-color: #333; border-radius: 3px"
-                  >
-                    M
-                  </div>
-                  <div
-                    class="py-0 px-2"
-                    style="
-                      background-color: #999;
-                      border-radius: 3px;
-                      width: 30px;
-                      height: 24px;
-                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
-                    "
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card"
-            style="
-              width: 22.5rem;
-              padding: 0;
-              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-            "
-          >
-            <img
-              src="Assets/Women's Rain Defender® Loose Fit....png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="px-3 py-2">
-              <span class="text-danger fw-medium">Best Seller</span>
-              <h5 class="card-title fw-semibold mt-2" style="height: 50px">
-                Women's Rain Defender® Loose Fit...
-              </h5>
-              <div
-                class="d-flex justify-content-between align-items-center mb-1"
-              >
-                <h5 class="fw-semibold">Rp. 1.729.000</h5>
-                <div class="d-flex align-items-center gap-1">
-                  <div
-                    class="py-0 px-2 text-white fw-semibold"
-                    style="background-color: #333; border-radius: 3px"
-                  >
-                    W
-                  </div>
-                  <div
-                    class="py-0 px-2"
-                    style="
-                      background-color: #999;
-                      border-radius: 3px;
-                      width: 30px;
-                      height: 24px;
-                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
-                    "
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card"
-            style="
-              width: 22.5rem;
-              padding: 0;
-              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-            "
-          >
-            <img
-              src="Assets/City Skate Short Sleeve T-Shirt.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="px-3 py-2">
-              <span class="text-danger fw-medium">Best Seller</span>
-              <h5 class="card-title fw-semibold mt-2" style="height: 50px">
-                City Skate Short Sleeve T-Shirt
-              </h5>
-              <div
-                class="d-flex justify-content-between align-items-center mb-1"
-              >
-                <h5 class="fw-semibold">Rp. 1.729.000</h5>
-                <div class="d-flex align-items-center gap-1">
-                  <div
-                    class="py-0 px-2 text-white fw-semibold"
-                    style="background-color: #333; border-radius: 3px"
-                  >
-                    A
-                  </div>
-                  <div
-                    class="py-0 px-2"
-                    style="
-                      background-color: #999;
-                      border-radius: 3px;
-                      width: 30px;
-                      height: 24px;
-                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
-                    "
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card"
-            style="
-              width: 22.5rem;
-              padding: 0;
-              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-            "
-          >
-            <img
-              src="Assets/Jordan Essentials - Men's Woven Jacket.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="px-3 py-2">
-              <span class="text-danger fw-medium">Best Seller</span>
-              <h5 class="card-title fw-semibold mt-2" style="height: 50px">
-                Jordan Essentials - Men's Woven Jacket
-              </h5>
-              <div
-                class="d-flex justify-content-between align-items-center mb-1"
-              >
-                <h5 class="fw-semibold">Rp. 1.729.000</h5>
-                <div class="d-flex align-items-center gap-1">
-                  <div
-                    class="py-0 px-2 text-white fw-semibold"
-                    style="background-color: #333; border-radius: 3px"
-                  >
-                    M
-                  </div>
-                  <div
-                    class="py-0 px-2"
-                    style="
-                      background-color: #999;
-                      border-radius: 3px;
-                      width: 30px;
-                      height: 24px;
-                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
-                    "
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card"
-            style="
-              width: 22.5rem;
-              padding: 0;
-              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-            "
-          >
-            <img
-              src="Assets/Zion - Men's Graphic Fleece Pullover Hoodie.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="px-3 py-2">
-              <span class="text-danger fw-medium">Best Seller</span>
-              <h5 class="card-title fw-semibold mt-2" style="height: 50px">
-                Zion - Men's Graphic Fleece Pullover Hoodie
-              </h5>
-              <div
-                class="d-flex justify-content-between align-items-center mb-1"
-              >
-                <h5 class="fw-semibold">Rp. 1.729.000</h5>
-                <div class="d-flex align-items-center gap-1">
-                  <div
-                    class="py-0 px-2 text-white fw-semibold"
-                    style="background-color: #333; border-radius: 3px"
-                  >
-                    A
-                  </div>
-                  <div
-                    class="py-0 px-2"
-                    style="
-                      background-color: #999;
-                      border-radius: 3px;
-                      width: 30px;
-                      height: 24px;
-                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
-                    "
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card"
-            style="
-              width: 22.5rem;
-              padding: 0;
-              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-            "
-          >
-            <img
-              src="Assets/Nike Club - Men's Marina Anorak.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="px-3 py-2">
-              <span class="text-danger fw-medium">Best Seller</span>
-              <h5 class="card-title fw-semibold mt-2" style="height: 50px">
-                Nike Club - Men's Marina Anorak
-              </h5>
-              <div
-                class="d-flex justify-content-between align-items-center mb-1"
-              >
-                <h5 class="fw-semibold">Rp. 1.729.000</h5>
-                <div class="d-flex align-items-center gap-1">
-                  <div
-                    class="py-0 px-2 text-white fw-semibold"
-                    style="background-color: #333; border-radius: 3px"
-                  >
-                    M
-                  </div>
-                  <div
-                    class="py-0 px-2"
-                    style="
-                      background-color: #999;
-                      border-radius: 3px;
-                      width: 30px;
-                      height: 24px;
-                      box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
-                    "
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
