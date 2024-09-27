@@ -18,15 +18,93 @@
     .pg {
       margin-top: -50px;
     }
+
+    .custom-navbar {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .custom-section {
+      padding: 0 50px;
+      padding-top: 100px;
+    }
+
+    .custom-title {
+      font-size: 60px;
+    }
+
+    .custom-text {
+      font-size: 25px;
+    }
+
+    .custom-btn {
+      padding: 10px 30px;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+
+    .instagram-btn {
+      background-color: #A319FF;
+      color: white;
+    }
+
+    .facebook-btn {
+      background-color: #425E9A;
+      color: white;
+    }
+
+    .twitter-btn {
+      background-color: black;
+      color: white;
+    }
+
+    .custom-image-container img {
+      display: block;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .custom-section {
+        padding: 0 20px;
+      }
+
+      .custom-title {
+        font-size: 35px;
+      }
+
+      .custom-text {
+        font-size: 18px;
+      }
+
+      .custom-btn {
+        padding: 8px 20px;
+        font-size: 14px;
+      }
+
+      .custom-image-container {
+        display: none;
+      }
+
+      .custom-navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
   </style>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg bg-dark fixed-top border-bottom border-body" data-bs-theme="dark">
-    <div class="d-flex justify-content-between align-items-center" style="margin: 8px 50px; width: 100%;">
-      <img src="Assets/Logo.png" style="height: 30px;" alt="">
-      <div>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="container-fluid custom-navbar my-1">
+      <a class="navbar-brand" href="">
+        <img src="Assets/Logo.png" style="height: 30px;" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" style="font-weight: 500; font-size: 20px; color: #fff;" href="#home">Home</a>
           </li>
@@ -36,51 +114,51 @@
           <li class="nav-item">
             <a class="nav-link" style="font-weight: 500; font-size: 20px; color: #fff;" href="#clothing">Clothing</a>
           </li>
-          <li class="nav-item"></li>
-          <a class="nav-link" style="font-weight: 500; font-size: 20px; color: #fff;" href="#about">About</a>
+          <li class="nav-item">
+            <a class="nav-link" style="font-weight: 500; font-size: 20px; color: #fff;" href="#about">About</a>
           </li>
         </ul>
-      </div>
-      <div class="btn" style="background-color: #fff; color: #000; font-weight: 700; font-size: 20px">
-        Kelompok 8
+        <div class="btn ms-lg-3" style="background-color: #fff; color: #000; font-weight: 700; font-size: 20px">
+          Kelompok 8
+        </div>
       </div>
     </div>
   </nav>
 
   <main>
-    <section id="home" class="mb-3 container-fluid mt-4 " style="padding: 0 50px; padding-top: 100px;">
+    <section id="home" class="mb-3 container-fluid mt-4 custom-section" style="padding: 0 50px; padding-top: 100px;">
       <div class="row align-items-center">
         <div class="col-md-7">
-          <div class="card-body" class="align-items-center">
-            <h2 class="card-title fw-bold mb-3" style="font-size: 60px">
+          <div class="card-body">
+            <h2 class="card-title fw-bold mb-3 custom-title">
               Find your items and change your style now!
             </h2>
-            <p class="card-text" style="font-size: 25px">
+            <p class="card-text custom-text">
               Temukan barang yang sesuai dengan kepribadianmu dan ubah penampilanmu jadi lebih stylish. Fashion dan
               aksesoris terbaik ada di sini untuk membuatmu tampil beda!
             </p>
-            <button type="button" class="btn d-inline-flex align-items-center gap-2"
-              style="padding: 10px 30px; border-radius: 10px; color: white; background-color: #A319FF">
-              <img src="Assets/Instagram.png" width="22" height="22" alt="" />
-              G8Stores
-            </button>
-            <button type="button" class="btn d-inline-flex align-items-center gap-2"
-              style="padding: 10px 30px; border-radius: 10px; margin-left: 10px; background-color: #425E9A; color:  white;">
-              <img src="Assets/Facebook.png" width="24" height="24" alt="" />
-              G8Stores
-            </button>
-            <button type="button" class="btn d-inline-flex align-items-center gap-2"
-              style="padding: 10px 30px; border-radius: 10px; margin-left: 10px; color: white; background-color: black">
-              <img src="Assets/Twiter.png" width="22" height="22" alt="" />
-              G8Stores
-            </button>
+            <div class="d-flex flex-wrap gap-3 justify-content-md-start justify-content-center">
+              <button type="button" class="btn d-inline-flex align-items-center gap-2 custom-btn instagram-btn">
+                <img src="Assets/Instagram.png" width="22" height="22" alt="" />
+                G8Stores
+              </button>
+              <button type="button" class="btn d-inline-flex align-items-center gap-2 custom-btn facebook-btn">
+                <img src="Assets/Facebook.png" width="24" height="24" alt="" />
+                G8Stores
+              </button>
+              <button type="button" class="btn d-inline-flex align-items-center gap-2 custom-btn twitter-btn">
+                <img src="Assets/Twiter.png" width="22" height="22" alt="" />
+                G8Stores
+              </button>
+            </div>
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 d-none d-md-block custom-image-container">
           <img src="Assets/CartHitam.png" class="img-fluid rounded-end" alt="..." />
         </div>
       </div>
     </section>
+
     <section id="shoes" class="my-5">
       <nav class="navbar text-white d-flex justify-content-center mb-3" style="background-color: #252525">
         <h3 class="fw-bold my-1" style="margin: 0">Shoes</h3>
@@ -100,7 +178,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     M
                   </div>
-                  <div class="py-0 px-2" style="background-color: #27344A;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #27344A;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -118,7 +198,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     A
                   </div>
-                  <div class="py-0 px-2" style="background-color: #385052;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #385052;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -136,7 +218,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     W
                   </div>
-                  <div class="py-0 px-2" style="background-color: #C5C5C5;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #C5C5C5;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -154,8 +238,12 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     A
                   </div>
-                  <div class="py-0 px-2" style="background-color: #CDB9A1;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
-                  <div class="py-0 px-2" style="background-color: #2E3D5F;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #CDB9A1;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
+                  <div class="py-0 px-2"
+                    style="background-color: #2E3D5F;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -173,7 +261,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     A
                   </div>
-                  <div class="py-0 px-2" style="background-color: #1D2A49;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #1D2A49;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -191,7 +281,8 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #303032; border-radius: 3px">
                     M
                   </div>
-                  <div class="py-0 px-2" style="
+                  <div class="py-0 px-2"
+                    style="
                       background-color: #999;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
                 </div>
               </div>
@@ -219,7 +310,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     M
                   </div>
-                  <div class="py-0 px-2" style="background-color: #738699;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #738699;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -237,7 +330,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     W
                   </div>
-                  <div class="py-0 px-2" style="background-color: #8A846F;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #8A846F;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -255,7 +350,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     A
                   </div>
-                  <div class="py-0 px-2" style="background-color: #2A2A29;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #2A2A29;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -273,7 +370,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     M
                   </div>
-                  <div class="py-0 px-2" style="background-color: #16191E;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #16191E;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -291,7 +390,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     A
                   </div>
-                  <div class="py-0 px-2" style="background-color: #0F0E12;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #0F0E12;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -309,7 +410,9 @@
                   <div class="py-0 px-2 text-white fw-semibold" style="background-color: #252525; border-radius: 3px">
                     M
                   </div>
-                  <div class="py-0 px-2" style="background-color: #E1E0E5;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);"></div>
+                  <div class="py-0 px-2"
+                    style="background-color: #E1E0E5;border-radius: 3px;width: 30px;height: 24px;box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);">
+                  </div>
                 </div>
               </div>
             </div>
@@ -411,7 +514,7 @@
   </main>
   <footer id="footer">
     <nav class="navbar text-white d-flex justify-content-center" style="background-color: #252525; padding: 20px;">
-      <span style="margin: 0;">Tugas PKK(KWU) - Kelompok 8</span>
+      <span style="margin: 0; font-size: 20px; font-weight: 700">Tugas PKK(KWU) - Kelompok 8</span>
     </nav>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
